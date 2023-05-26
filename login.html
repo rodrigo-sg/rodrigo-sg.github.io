@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>AFK | Login</title>
+  <link rel="shortcut icon" href="img/hamburguesa.png" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" />
+  <!-- Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+  <!--  CSS -->
+  <link rel="stylesheet" href="css/StyleForms.css" />
+</head>
+
+<body class="bg-gradient-primary">
+  <div class="container">
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
+      <div class="col-xl-10 col-lg-12 col-md-9">
+        <div class="card shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Partes izquierda y derecha -->
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block izquierda">
+                <img class="Path" src="img/path.png" alt="Logo de la aplicación AFK" width="226px">
+              </div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h4 class="mb-4">BIENVENIDO</h4>
+                  </div>
+                  <form class="user" method="POST" action="Login.php">
+                    <div class="form-group pb-4">
+                      <input type="email" class="form-control form-control-user" id="validation01" name="validation01" aria-describedby="emailHelp" placeholder="Ingresa tu correo..." required/>
+                    </div>
+                    <div class="form-group pd-4">
+                      <div class="input-group">
+                        <input type="password" class="form-control form-control-user" id="validation02" name="validation02"placeholder="Contraseña" required />
+                        <button class="btn btn-outline-secondary" type="button" id="togglePassword">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="form-group pt-4 pb-4">
+                      <div class="custom-control custom-checkbox small">
+                        <input type="checkbox" class="custom-control-input" id="customCheck" />
+                        <label class="custom-control-label" for="customCheck">Recuérdame</label>
+                      </div>
+                    </div>
+                    <button href="Login.php" class="btn btn-warning col-12" type="submit">Entrar </button>
+                    <hr />
+                    <a href="index.html" class="btn text-light bg-danger col-12 mb-2"><i class="bi bi-google"></i> Google</a>
+                    <a href="index.html" class="btn text-light bg-primary col-12"><i class="bi bi-facebook"></i> Facebook</a>
+                    <hr />
+                    <div class="text-center texto_a">
+                      <a class="small" href="recuperar.html">¿Has olvidado la contraseña?</a>
+                    </div>
+                    <div class="text-center texto_a">
+                      <a class="small" href="registro.html">Crea una cuenta</a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer 
+  <footer class="bg-warning text-dark">
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <ul class="list-unstyled text-center">
+            <li class="d-inline-block me-3"><a href="#" class="text-dark">Términos y condiciones</a></li>
+            <li class="d-inline-block me-3"><a href="#" class="text-dark">Política de privacidad</a></li>
+            <li class="d-inline-block"><a href="#" class="text-dark">Ayuda</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 pb-4">
+      <hr class="mb-4">
+      <h6 class="text-dark text-center">© 2023 - Todos los derechos reservados</h6>
+    </div>
+  </footer>-->
+  
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/JavaLogin.js"></script>
+</body>
+</html>
+
