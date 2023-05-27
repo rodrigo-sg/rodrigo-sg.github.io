@@ -13,13 +13,13 @@
     
 }
 
-.logo h1 {
+.logo h5 {
     font-weight: bold;
     color: white;
     
 }
 
-.logo h4 {
+.logo h6 {
     font-weight: 700;
     color: red;
     padding-left: 30px;
@@ -33,6 +33,10 @@
 
 .nav-custom a:hover {
     color: red !important;
+}
+
+.navbar-toggler-icon {
+    
 }
 
 /*===================FOOTER==========================*/
