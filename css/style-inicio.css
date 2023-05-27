@@ -35,10 +35,6 @@
     color: red !important;
 }
 
-.dropdown-menu {
-    background-color: #ffc107;
-    border: none;
-}
 /*===================FOOTER==========================*/
 
 .footer-index {
@@ -51,7 +47,7 @@
     color: white;
 }
 
-/*===================FOOTER==========================*/
+/*===================MAIN==========================*/
 
 .about{
     font-family: 'Oleo Script', cursive;

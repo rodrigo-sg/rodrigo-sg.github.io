@@ -1,0 +1,159 @@
+/* VARIABLES */
+:root {  /*ayuda acceder a los colores más fácil*/
+  --base: #f8f9fa;
+  --base2:#FFF6CB; 
+  --primary: #343a40;
+  --secondary: #df1e2b;
+  --third:#2b2d3b; 
+  --blue:#1E2F5F; 
+  --blue2:#343247; 
+  --ambar: #FFBC00; 
+  --black:#000000;
+  --degradado1:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+  --degradado2:linear-gradient(to bottom, var(--pinkgamer), var(--celestegamer));
+  --degradado3: linear-gradient(to bottom right, var(--pinkgamer), var(--bluegamer), var(--celestegamer));
+  --verdegamer: #1fbf7e;
+  --pinkgamer: #FF0A89;
+  --bluegamer:#017FF7;
+  --celestegamer:#00D7FC;
+  --ambargamer:#F59705;
+   /* paleta de colores nintendo*/
+  --pinknintendo:#ff4554;
+  --celestenintendo:#00c3e3;
+  --rojonintendo:#e60012;
+    /* prototipo*/
+  --secondayprototipo: #F9E79F;
+  --headerprotito:#FFCE9B;
+  --sliderprototipo:#FEE69A;
+  --colorprototipo:#520100;
+
+
+
+ /* #343a40;*/
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(255,10,137);
+    background: -moz-radial-gradient(circle, rgba(255,10,137,1) 0%, rgba(0,215,252,1) 51%, rgba(157,55,179,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(255,10,137,1) 0%, rgba(0,215,252,1) 51%, rgba(157,55,179,1) 100%);
+    background: radial-gradient(circle, rgba(255,10,137,1) 0%, rgba(0,215,252,1) 51%, rgba(157,55,179,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0a89",endColorstr="#9d37b3",GradientType=1); 
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    z-index: 5;
+  
+  }
+  .img-yasuo {
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    
+  }
+  .img-blood {
+    transform: scaleX(-1);/*volteara en espejo horizontal.*/
+    top: 0;
+    right: 0;
+    width: 400px;
+    position: absolute;
+   bottom: 0;
+   z-index: 1;
+    
+  }
+  .img-bros{
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    width: 150px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+  }
+  .img-fornite{
+    transform: scaleX(-1);/*volteara en espejo horizontal.*/
+    bottom: 0;
+    right: 0;
+    width: 400px;
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
+    
+  }
+  .img-overwatch{
+ 
+    top: 0;
+    left: 0;
+    width: 200px;
+    position: fixed;
+   bottom: 0;
+   z-index: 3;
+    
+  }
+  form {
+    background-color: transparent;
+    border-radius: 20px;
+    padding: 60px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+   
+  }
+  input[type="text"],
+  input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+    /*border-radius: 0px;*/
+    border: none;
+    background-color: transparent;
+    color: var(--base);
+    border-bottom: 2px solid white;
+    outline: none;
+  }
+  input::placeholder {
+    color: rgba(248, 247, 247, 0.645)
+  }
+  
+  
+  button[type="submit"] {
+    background-color: rgba(24, 17, 17, 0.241);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 30px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: rgba(24, 17, 17, 0.522);
+    
+  }

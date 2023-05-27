@@ -1,0 +1,99 @@
+/* VARIABLES */
+:root {  /*ayuda acceder a los colores más fácil*/
+    --base: #f8f9fa;
+    --base2:#FFF6CB; 
+    --primary: #343a40;
+    --secondary: #df1e2b;
+    --third:#2b2d3b; 
+    --blue:#1E2F5F; 
+    --blue2:#343247; 
+    --ambar: #FFBC00; 
+    --black:#000000;
+    --degradado1:linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    --degradado2:linear-gradient(to bottom, var(--pinkgamer), var(--celestegamer));
+    --degradado3: linear-gradient(to bottom right, var(--pinkgamer), var(--bluegamer), var(--celestegamer));
+    --verdegamer: #1fbf7e;
+    --pinkgamer: #FF0A89;
+    --bluegamer:#017FF7;
+    --celestegamer:#00D7FC;
+    --ambargamer:#F59705;
+     /* paleta de colores nintendo*/
+    --pinknintendo:#ff4554;
+    --celestenintendo:#00c3e3;
+    --rojonintendo:#e60012;
+      /* prototipo*/
+    --secondayprototipo: #F9E79F;
+    --headerprotito:#FFCE9B;
+    --sliderprototipo:#FEE69A;
+    --colorprototipo:#520100;
+  
+  
+  
+   /* #343a40;*/
+  }
+
+  .texto_a .small{  
+    text-decoration: none; 
+  }
+  .texto_a .small:hover{  
+    font-weight: bold;
+    
+  }
+  .blood{/*no necesario está por verse si se añade*/
+    transform: scaleX(-1);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .yasuo{
+    position: absolute;
+    bottom: 0;
+   left: 0;
+   
+  }
+  .izquierda{
+    background-color:var(--ambar) ;
+    position: relative;
+    
+  }
+  .Fortnite{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .imglogo{ /*no necesario está por verse si se añade*/
+    position: absolute;
+    left: 20PX;
+  }
+  .Path{
+    position: absolute;
+    bottom: 0;
+    left: 140px;
+  }
+  .cod {
+    position: absolute;
+    bottom: 0;
+  }
+
+  /*Medias querys*/
+  @media (max-width: 1399px){
+    .Fortnite{
+
+      width: 475px;
+      height: 300px;
+
+    }
+    .Path{
+      left: 110px;
+    }
+    .yasuo{
+      width:470px;
+     
+    }
+  }
+  @media (max-width: 1200px){
+    .yasuo{
+      width:400px;
+     
+    }
+  }
