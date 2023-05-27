@@ -1,0 +1,64 @@
+/*===================FUENTES==========================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+
+
+/*===================MENU==========================*/
+
+.nav-inicio {
+    background-color: #ffc107;
+}
+
+.logo {
+    
+}
+
+.logo h5 {
+    font-weight: bold;
+    color: white;
+    
+}
+
+.logo h6 {
+    font-weight: 700;
+    color: red;
+    padding-left: 30px;
+    
+}
+
+.nav-custom a{
+    color: white !important;
+    font-weight: 500;
+}
+
+.nav-custom a:hover {
+    color: red !important;
+}
+
+.navbar-toggler-icon {
+    
+}
+
+/*===================FOOTER==========================*/
+
+.footer-index {
+   background-color: #ffc107 !important;
+   color: white !important;
+}
+
+.redes i {
+    font-size: 30px;
+    color: white;
+}
+
+/*===================MAIN==========================*/
+
+.about{
+    font-family: 'Oleo Script', cursive;
+
+}
+
+.carousel-item img{
+    width: 600px;
+    height: 700px;
+}
