@@ -57,3 +57,9 @@
     font-family: 'Oleo Script', cursive;
 
 }
+
+.carousel-item img{
+    width: 600px;
+    height: 700px;
+}
+
